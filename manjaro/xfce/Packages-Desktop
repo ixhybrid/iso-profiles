@@ -15,8 +15,8 @@ samba
 usb_modeswitch
 
 ## Btrfs
-grub-btrfs
->extra timeshift-autosnap-manjaro
+#grub-btrfs
+#>extra timeshift-autosnap-manjaro
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -65,11 +65,11 @@ terminus-font
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk3
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#pamac-gtk3
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer
@@ -97,7 +97,7 @@ xfdesktop
 xfwm4
 
 ## XFCE Extras
-blueman
+#blueman
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
@@ -163,7 +163,7 @@ engrampa
 >extra galculator
 gcolor3
 >extra gimp
-gparted
+#gparted
 gufw
 >extra audacious
 >extra hexchat
@@ -173,11 +173,11 @@ inxi
 #>extra microsoft-office-online-jak
 #>extra freeoffice
 #>extra onlyoffice-desktopeditors
-manjaro-hello
+#manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
+#>basic midori
 >extra mlocate
 mousepad
 mugshot
@@ -188,7 +188,7 @@ screenfetch
 evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
->extra thunderbird
+#>extra thunderbird
 >extra vlc
 >extra viewnior
 >extra xfburn
